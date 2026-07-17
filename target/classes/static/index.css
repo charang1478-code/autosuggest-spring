@@ -9,3 +9,19 @@ title{
 body{
     background-color: rgb(0, 0, 0);
 }
+script{
+    color: rgb(255, 0, 0);
+}
+.NavBar{
+    border-style: solid;
+    border-color: grey;
+    border-color: rgb(122, 122, 122);
+    background-color: rgb(109, 108, 108);
+}
+.NavBar a{
+    padding: 10px;
+    text-decoration: none;
+}
+.NavBar a:hover{
+    background-color: rgb(100, 100, 100);
+}
