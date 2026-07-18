@@ -9,19 +9,20 @@
 <body>
     <h1>WELCOME TO<br>AUTO SUGGEST SPRINGBOOT</h1>
     <div class="NavBar">
-        <a href="">Home</a>
-        <a href="">GitHub</a>
-        <a href="">Leetcode</a>
-        <a href="">AutoSuggest</a>
+        <a href="https://autosuggest-spring-7yt3.onrender.com">Home</a>
+        <a href="https://github.com">GitHub</a>
+        <a href="https://leetcode.com/">Leetcode</a>
+        <a href="https://www.autosuggest.net/">AutoSuggest</a>
     </div>
     <br><br>
     <div class="card">
-        <img src="john.png" alt="Image NOT FOUND!"> <br>
-        <h3 id="username">CHARAN</h3> 
-        <p id="gender">Male</p> 
-        <button>Toggle User</button>   
+        <img id="user-image" src="john.png" alt="Image NOT FOUND!"> <br>
+        <h3 id="user-name">CHARAN</h3> 
+        <p id="user-gender">Male</p> 
+        <button onclick="toggleUser()">Toggle User</button>   
         <br><br>
-        <button>Random User</button>
+        <button onclick="randomUser()">Random User</button>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
